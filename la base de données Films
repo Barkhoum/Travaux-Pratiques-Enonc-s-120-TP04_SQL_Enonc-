@@ -1,0 +1,21 @@
+Travaux Pratiques : Enoncés
+120-TP04_SQL_Enoncé
+DWWM : DB © A.F.P.A. Créteil 05/11/20 Réf. : 120-TP04_SQL_Enoncé.docx Page 1/2
+la base de données Films
+Schéma de la base :
+ Film (idFilm, titre, année, genre, résumé, idRéalisateur, genre, résumé, codePays)
+ Pays (code, nom, langue)
+ Artiste (idArtiste, nom, prénom, annéeNaiss)
+ Rôle (idFilm, idActeur, nomRôle)
+ Internaute (email, nom, prénom, codePays)
+ Notation (idFilm, email, note)
+Plusieurs tables sont liées entre elles par des clefs étrangères.
+Réaliser les requêtes suivantes :
+1. Nom et année de naissance des artistes nés avant 1950
+2. Titre de tous les drames
+3. Quels rôles a joué Bruce Willis (sans doublon)
+4. Qui est le réalisateur de Memento
+5. Quelles sont les notes obtenues par le film Fargo
+6. Qui a joué le rôle de Chewbacca?
+7. Dans quels films Bruce Willis a-t-il joué le rôle de John McClane ?
+8. Nom des acteurs de 'Sueurs froides' avec leur rôle
